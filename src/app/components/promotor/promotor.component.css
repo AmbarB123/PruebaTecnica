@@ -1,0 +1,83 @@
+.afiliate .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 50px 0px 0px 0px;
+    align-items: center;
+}
+
+.afiliate .grid h1{
+    text-align: center;
+    width: 90%;
+    color: #042173;
+}
+
+.afiliate .grid p{
+    text-align: left;
+    width: 90%;
+    color: #042173;
+    font-size: 1.3rem;
+}
+
+.login{
+    background-color: #042173;
+    background-image: url(https://mayo.teconcetheme.com/graphicmarket/wp-content/uploads/sites/6/2018/12/about-hero.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px 0px;
+    width: 100%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.login h1{
+    color: white;
+    text-align: center;
+}
+
+.login p{
+    color: white;
+    text-align: center;
+    font-size:1.5rem;
+    width: 70%;
+    position: relative;
+    left:15%;
+}
+
+.login form{
+    width: 80%;
+    margin: auto;
+}
+
+.login label{
+    display: block;
+    color: white;
+    font-size:1.2rem;
+    padding-left: 15px;
+}
+
+.login input{
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    background-color: none;
+    border: solid 2px #20005E;
+    height: 30px;
+    margin-top: 8px;
+    border-radius: 25px;
+    padding-left: 10px;
+}
+
+button{
+    width: 30%;
+    border: none;
+    background-color: #00F3B6;
+    height: 40px;
+    margin-top: 8px;
+    border-radius: 5px;
+    position: relative;
+    left: 35%;
+    font-size: 1.1rem;
+    cursor: pointer;
+}

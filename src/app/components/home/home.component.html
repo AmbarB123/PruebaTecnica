@@ -1,0 +1,37 @@
+<app-header></app-header>
+<div class="search">
+    <h1>Busca tu producto</h1>
+    <input type="text">
+</div>
+<div class="promotor">
+    <h1>¡Aquí te enseñamos como ser un promotor!</h1>
+    <div class="grid">
+        <div *ngFor="let dtl of details">
+            <app-box-text
+            [detail]="dtl"
+        ></app-box-text>
+        </div>
+    </div>
+</div>
+
+<div class="platform">
+    <h1>La tecnología que tu negocio necesita para comenzar</h1>
+    <div class="grid">
+        <div class="image" data-aos="fade-right">
+            <img src="assets/images/platform.png" alt="">
+        </div>
+        <div class="text">
+            <h2>Múltiples plantillas de productos</h2>
+            <p>Todas las herramientas que necesitas para facilitar tu día a día.</p>
+            <p>Transforma lo que sabes en un producto digital y vende a millones de personas alrededor del mundo.</p>
+        </div>
+    </div>
+</div>
+
+<div class="formR">
+    <app-form [size]="'medium'"></app-form>
+</div>
+
+<div>
+    <app-footer></app-footer>
+</div>

@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size:3rem;
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    color: #0027C9
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.grid{
+    background: linear-gradient(
+        121.28deg, #010012 0%, #00FF94 100%), linear-gradient(
+        180deg, #00647A 0%, #FFFFFF 100%), linear-gradient(
+        244.35deg, #FFB26A 0%, #C15151 50.58%, #00A3FF 100%), linear-gradient(
+        244.35deg, #E03F3F 0%, #00114B 49.48%, #FF0000 100%), radial-gradient(100% 233.99% at 0% 100%, #FF0000 0%, #AD00FF 100%), linear-gradient(
+        307.27deg, #096F5C 0.37%, #687EB5 50.19%, #8877CE 100%), radial-gradient(100% 140% at 100% 0%, #FF00C7 0%, #006C7A 49.48%, #FF9900 100%);
+            background-blend-mode: overlay, difference, overlay, overlay, difference, color-dodge, normal;
+    padding: 50px 0px
+}
+
+.grid .formC .form form{
+    width:80% !important;
+}

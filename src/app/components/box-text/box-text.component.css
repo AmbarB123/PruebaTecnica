@@ -1,0 +1,28 @@
+.box {
+    width: 200px
+}
+
+.box .flex{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    align-items: center;
+    
+}
+
+.box .flex .icon {
+    font-size:3rem;
+    width: 20%;
+    color: white;
+}
+
+
+.box .flex .text {
+    width: 70%;
+    align-items: center;
+}
+
+.box .flex .text p{
+    font-size: 1.3rem;
+    color: white;
+}

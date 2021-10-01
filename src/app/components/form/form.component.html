@@ -1,0 +1,46 @@
+<div class="form" data-aos="zoom-in">
+    <h1>Registrate</h1>
+    <p [ngClass]="{
+        'large': size == 'large',
+        'medium': !size || size == 'medium'
+        }"
+    >
+    Aquí puedes registarte para <strong>Vender</strong> tus productos o ser <strong>Promotor</strong>, por favor escoge una opcion.</p>
+    <form action="" #userForm="ngForm" (ngSubmit)="onSubmit()" 
+        [ngClass]="{
+            'large': size == 'large',
+            'medium': !size || size == 'medium'
+        }"
+    >
+        <div>
+            <label for="">Nombre</label>
+            <input type="text" name="nombre"  #nombre="ngModel" [(ngModel)]="user.nombre" required>
+        </div>
+
+        <div>
+            <label for="">E-mail</label>
+            <input type="email" name="email"  #email="ngModel" [(ngModel)]="user.email" required pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$">
+            <small *ngIf="!email.valid && email.touched">¡ El email no es valido !</small>
+        </div>
+
+        <div>
+            <label for="">Ciudad</label>
+            <input type="text" name="ciudad"  #ciudad="ngModel" [(ngModel)]="user.ciudad" required>
+        </div>
+        <div>
+            <label for="">Telefono</label>
+            <input type="text" name="telefono"  #telefono="ngModel" [(ngModel)]="user.telefono" required>
+        </div>
+        <div class="radio">
+            <div>
+                <label for="">Quiero vender mi producto</label>
+                <input type="radio" name="accion" value="vendedor" [(ngModel)]="user.accion" required>
+            </div>
+            <div>
+                <label for="">Quiero ser promotor</label>
+                <input type="radio" name="accion" value="promotor"  [(ngModel)]="user.accion" >
+            </div>
+        </div>
+        <button>Registrarme</button>
+    </form>
+</div>

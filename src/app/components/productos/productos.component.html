@@ -1,0 +1,17 @@
+<app-header-simple
+    [titlePage]="'Productos'"
+></app-header-simple>
+
+<div class="productos-grid">
+    <div *ngFor="let prod of productos">
+        <div class="imgP" data-aos="fade-up">
+            <img src="{{prod.image}}" alt="">
+            <div class="overlay">
+                <button>Ver Detalles</button>
+            </div>
+        </div>
+        <h3>{{prod.title}}</h3>
+        <h4>${{prod.price}}.00</h4>
+    </div>
+</div>
+<app-footer></app-footer>

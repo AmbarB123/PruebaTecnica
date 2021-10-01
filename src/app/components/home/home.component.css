@@ -1,0 +1,97 @@
+.search{
+    width: 73%;
+    margin: auto;
+    height: 210px;
+    position: relative;
+    top: -90px;
+    background: white;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow:3px 3px 3px 3px #9e9e9e1a;
+    z-index: 1;
+}
+
+.search h1{
+    color:  #140058;
+    font-weight: bold;
+    font-size:3rem;
+    text-align: center;
+}
+
+.search input{
+    border: solid 2px #6C00FF;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    height: 40px;
+    border-radius: 6px;
+}
+
+.promotor{
+    width: 100%;
+    padding: 130px 0px 50px 0px;
+    background: linear-gradient(
+        125deg, #00FF57 0%, #010033 40%, #460043 70%, #F0FFC5 100%), linear-gradient(
+        55deg, #0014C9 0%, #410060 100%), linear-gradient(
+        300deg, #FFC700 0%, #001AFF 100%), radial-gradient(135% 215% at 115% 40%, #393939 0%, #393939 40%, #849561 calc(40% + 1px), #849561 60%, #EED690 calc(60% + 1px), #EED690 80%, #ECEFD8 calc(80% + 1px), #ECEFD8 100%), linear-gradient(
+        125deg, #282D4F 0%, #282D4F 40%, #23103A calc(40% + 1px), #23103A 70%, #A0204C calc(70% + 1px), #A0204C 88%, #FF6C00 calc(88% + 1px), #FF6C00 100%);
+    background-blend-mode: overlay, screen, overlay, overlay, normal;
+    position: relative;
+    top: -180px;
+}
+
+.promotor h1{
+    color: white;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.promotor .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 50%;
+    margin: auto;
+}
+
+.platform{
+    width: 100%;
+    margin-top: -100px;
+}
+
+.platform h1{
+    font-size:2.5rem;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    margin-bottom:60px;
+    color: #0027C9;
+}
+
+.platform .grid{
+    display: grid;
+    grid-template-columns: 60% 1fr;
+    align-items: center;
+}
+
+.platform .grid .image img{
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+
+.platform .grid .text h2{
+    color: #6C00FF;
+    font-size:2rem
+}
+
+.platform .grid .text p{
+    font-size:1.2rem;
+    width: 80%
+}
+
+.formR{
+    background: linear-gradient(
+        55deg, #212121 0%, #212121 40%, #323232 calc(40% + 1px), #323232 60%, #008F95 calc(60% + 1px), #008F95 70%, #14FFEC calc(70% + 1px), #14FFEC 100%);
+    padding: 50px 0px;
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+<app-header-simple
+    [titlePage]="'Quiero ser Promotor'"
+></app-header-simple>
+
+<div class="afiliate">
+    <div class="grid">
+        <div class="image">
+            <img src="assets/images/promotor.png" alt="">
+        </div>
+        <div class="text">
+            <h1>Promueve productos en Internet y haz de ello un negocio</h1>
+            <p>Usa tu audiencia o utiliza herramientas para divulgar links y ganar excelentes comisiones en cada venta como Afiliado(a).</p>
+            <p>Usa el Programa de Promotores, encuentra y recomienda productos a tus seguidores y amplia tu fuente de renta con comisiones de hasta un 80% sobre el valor del producto.</p>
+            <button (click)="registrarme()">Registrarme</button>
+        </div>
+    </div>
+</div>
+
+<div class="login">
+    <div class="formLogin">
+        <h1>Login</h1>
+        <p>Si ya haces parte de nuestra comunidad ingresa aquí</p>
+        <form action="" #userForm="ngForm" (ngSubmit)="onSubmit()">
+            <div>
+                <label for="">User</label>
+                <input type="text" name="user"  #user="ngModel" [(ngModel)]="client.user" required>
+            </div>
+    
+            <div>
+                <label for="">Password</label>
+                <input type="password" name="password"  #password="ngModel" [(ngModel)]="client.password" required>
+            </div>
+
+            <button>Entrar</button>
+        </form>
+    </div>
+    <div class="image">
+        <img src="assets/images/login.png" alt="">
+    </div>
+    
+</div>
+
+<div class="grid">
+    <div class="text">
+
+    </div>
+    <div class="image">
+
+    </div>
+</div>
+
+
+<app-footer></app-footer>
