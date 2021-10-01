@@ -44,6 +44,7 @@
     transform: scale(1);
 	animation: pulse 2s infinite;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .menu button:hover{
